@@ -6,7 +6,7 @@ const script = [...document.querySelectorAll('body>script:not([type], [src])')]?
 for (const match of script.matchAll(regex)) {
 	try {
 		const btn = document.querySelector(`#${match.groups.id} span.bp-c-button`);
-		if (!btn?.classList.replace('bp-c-button--primary', 'bp-p-couponCard_revealedCode')) contunue;
+		if (!btn?.classList.replace('bp-c-button--primary', 'bp-p-couponCard_revealedCode')) continue;
 		btn.textContent = match.groups.code;
 		btn.addEventListener('click', (ev) => {
 			ev.stopPropagation();

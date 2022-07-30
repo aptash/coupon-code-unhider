@@ -1,7 +1,7 @@
 const data = JSON.parse(document.querySelector('#__NEXT_DATA__').textContent).props.pageProps
 	.serverState.apollo.data;
 
-document.querySelectorAll("[class*='OfferCta__OfferCTAButton']>div:first-child").forEach((e) => {
+document.querySelectorAll('[class*="OfferCta__OfferCTAButton"]>div:first-child').forEach((e) => {
 	try {
 		const id = e.closest('[data-qa-offer-uuid]').dataset.qaOfferUuid;
 		const ab = e.closest('.anchor-button');
