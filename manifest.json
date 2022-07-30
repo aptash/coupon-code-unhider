@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Coupon Code Unhider",
 	"description": "Coupon Code Unhider reveals hidden coupon codes automatically without any clicks.",
-	"version": "0.0.0.10",
+	"version": "0.0.0.11",
 	"icons": {
 		"32": "32.png",
 		"128": "128.png"
