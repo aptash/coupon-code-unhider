@@ -1,0 +1,39 @@
+.CouponCard-coveredButton {
+	line-height: 1.43;
+	list-style: none;
+	font-family: SuisseIntl, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	top: 2px;
+	color: #505050;
+	float: right;
+	width: 178px;
+	border: solid 1px #dadada;
+	height: 40px;
+	padding: 6px 14px;
+	overflow: hidden;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	white-space: nowrap;
+	border-radius: 3px;
+	background-color: #fafafa;
+	max-width: 100%;
+}
+
+.CouponCard-textAreaContainer {
+	font: inherit;
+	color: inherit;
+	width: 100%;
+	border: none;
+	height: 100%;
+	resize: none;
+	outline: none;
+	overflow: hidden;
+	position: relative;
+	background: transparent;
+	text-align: center;
+	line-height: initial;
+}

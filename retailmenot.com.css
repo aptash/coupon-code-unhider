@@ -1,0 +1,29 @@
+.button-show-code-revealed {
+	cursor: auto !important;
+
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease, fill 0.5s ease;
+	background: #fff;
+	color: #222;
+	font-family: Avenir Next, Calibri, Helvetica, Roboto, sans-serif;
+	min-width: 2em;
+	display: block;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	width: auto;
+	font-size: 26px;
+	user-select: text;
+	padding: 0.5em 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 6px;
+	outline: none;
+}
